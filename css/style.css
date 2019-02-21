@@ -755,6 +755,17 @@ footer {
 
     .footer__list li {
         margin-right: 0 !important;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
+}
+
+@media screen and (max-width: 20em) {
+    html {
+        font-size: 40%;
+    }
+
+    .header__cta {
+        top: 55%;
+    }
+
 }
