@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    _border: 1px solid red;
+    border: 1px solid red;
 }
 
 html {
@@ -127,7 +127,7 @@ footer {
     margin: 0 auto;
     position: relative;
     padding: 0 3rem;
-    _overflow: hidden;
+    overflow: hidden;
 }
 
 .row::before,
@@ -744,6 +744,17 @@ footer {
         width: 100%;
     }
 
+    .works-steps:last-child {
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+        margin: 3rem 0;
+    }
+
+    .works-steps__app-box {
+        margin: 1rem 0;
+    }
+
     .form__box {
         width: 90%;
     }
@@ -757,6 +768,7 @@ footer {
         margin-right: 0 !important;
         margin-bottom: 0.5rem;
     }
+
 }
 
 @media screen and (max-width: 20em) {
