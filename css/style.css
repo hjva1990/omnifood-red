@@ -230,7 +230,7 @@ footer {
 }
 
 .features__text-box {
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
 .features__text-box p {
@@ -301,7 +301,7 @@ footer {
 }
 
 .works__text-box {
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
 .works__img-box {
@@ -376,7 +376,7 @@ footer {
 }
 
 .cities__text-box {
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
 .cities-info {
@@ -421,7 +421,7 @@ footer {
 }
 
 .testimonials__text-box {
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
 .testimonials-box {
@@ -462,7 +462,7 @@ footer {
 }
 
 .plans__text-box {
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
 .plans-box {
@@ -524,7 +524,7 @@ footer {
 }
 
 .form__text-box {
-    margin-bottom: 6rem;
+    margin-bottom: 5rem;
 }
 
 .form__box {
@@ -731,6 +731,7 @@ footer {
     .btn:link,
     .btn:visited {
     margin-right: 3rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
     }
 
@@ -745,5 +746,15 @@ footer {
 
     .form__box {
         width: 90%;
+    }
+
+    .footer__list {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer__list li {
+        margin-right: 0 !important;
+        margin-bottom: 1rem;
     }
 }
