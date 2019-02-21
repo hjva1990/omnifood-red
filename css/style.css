@@ -22,7 +22,7 @@ body {
 }
 
 .h1-primary {
-    font-size: 4.8rem;
+    font-size: 4.3rem;
     text-transform: uppercase;
     color: white;
     letter-spacing: 0.2rem;
@@ -32,7 +32,7 @@ body {
 }
 
 .h2-primary {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     word-spacing: 0.2rem;
@@ -728,8 +728,22 @@ footer {
         font-size: 50%;
     }
 
+    .btn:link,
+    .btn:visited {
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    }
+
     .meals-box__item {
         _width: 100%;
         _float: none;
+    }
+
+    .works-steps {
+        width: 100%;
+    }
+
+    .form__box {
+        width: 90%;
     }
 }
