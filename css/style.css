@@ -771,13 +771,10 @@ footer {
 
 }
 
-@media screen and (max-width: 20em) {
-    html {
-        font-size: 40%;
-    }
+@media screen and (max-height: 30em) and (max-width: 20em) {
 
     .header__cta {
-        top: 55%;
+        color: red;
     }
 
 }
